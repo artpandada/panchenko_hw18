@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.square_item{
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid black;
+
+}
+.square_blue {
+    background-color: blue;
+}
+.square_green {
+    background-color: green;
+}
+.square_yellow {
+    background-color: yellow;
+}
+.table {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+
+}
+
+.table  td {
+    border: 1px solid;
+    padding: 50px;
+    font-size: 15px;
+    color: grey;
+
+}
+.span_text {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 35px;
+    color: grey;
+}
+
